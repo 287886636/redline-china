@@ -1,16 +1,16 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
-	
-	<!-- mobile meta tag -->		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!-- mobile meta tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>Sympathique</title> 
-	
+	<title>Sympathique</title>
+
 	<!-- main style -->
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-	
+
 	<!-- color scheme -->
 	<link rel="stylesheet" type="text/css" href="color-schemes/red/red.css" media="screen" title="red" />
 	<link rel="stylesheet" type="text/css" href="color-schemes/yellow/yellow.css" media="screen" title="yellow" />
@@ -18,23 +18,23 @@
 	<link rel="stylesheet" type="text/css" href="color-schemes/blue/blue.css" media="screen" title="blue" />
 	<link rel="stylesheet" type="text/css" href="color-schemes/green/green.css" media="screen" title="green" />
 	<link rel="stylesheet" type="text/css" href="color-schemes/purple/purple.css" media="screen" title="purple" />
-	
+
 	<!--miscellaneous-->
 	<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" media="screen"/>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen"/>
-	<link rel="stylesheet" type="text/css" href="css/audioplayer.css" media="screen" />	
-	
-	<!-- revolution slider settings -->
-	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />		
+	<link rel="stylesheet" type="text/css" href="css/audioplayer.css" media="screen" />
 
-	<!-- setting mobile environment -->		
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />	
-	
+	<!-- revolution slider settings -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+	<!-- setting mobile environment -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+
 	<!--[if IE 7]>
 	<link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.min.css">
 	<![endif]-->
-	
+
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="js/html5.js"></script>
 	<![endif]-->
@@ -52,17 +52,17 @@
 	<script type="text/javascript" src="js/jquery.preloadify.min.js"></script>
 	<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	
+
 	<!-- jQuery Revolution Slider -->
 	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
 	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-	
+
 	<script type="text/javascript" src="js/custom.js"></script>
-	
-	<link rel="stylesheet" type="text/css" href="template-changer.css" media="screen"/>		
-	<script type="text/javascript" src="js/jquery.cookie.js"></script>	
-	<script type="text/javascript" src="js/styleswitch.js"></script>	
-	
+
+	<link rel="stylesheet" type="text/css" href="template-changer.css" media="screen"/>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+
 	<!-- Google Web Fonts -->
 	<!--<link href='../../../fonts.googleapis.com/css@family=Open+Sans_3A300,400,600,700' rel='stylesheet' type='text/css'>-->
 
@@ -70,11 +70,11 @@
 <script type="text/javascript">
 	$(function()
 		{
-			// Call stylesheet init so that all stylesheet changing functions 
+			// Call stylesheet init so that all stylesheet changing functions
 			// will work.
 			$.stylesheetInit();
-			
-			// This code loops through the stylesheets when you click the link with 
+
+			// This code loops through the stylesheets when you click the link with
 			// an ID of "toggler" below.
 			$('#toggler').bind(
 				'click',
@@ -84,7 +84,7 @@
 					return false;
 				}
 			);
-			
+
 			// When one of the styleswitch links is clicked then switch the stylesheet to
 			// the one matching the value of that links rel attribute.
 			$('.styleswitch').bind(
@@ -97,12 +97,12 @@
 			);
 		}
 	);
-</script>	
-	
-</head> 
+</script>
+
+</head>
 
 <!--very important: setting a class for homepage -->
-<body class="home"> 
+<body class="home">
 
 <!-- setting a fullscreen image as background:
 <img id="bg" src="images/apple.jpg" alt="apple-background" />
@@ -111,8 +111,8 @@
 
 	<div class="theme-changer-wrap">
 		<div class="theme-changer">
-			<div class="changer-inner">				
-				<span> COLOR SCHEME </span>
+			<div class="changer-inner">
+        <span>主题颜色</span>
 					<ul id="colors">
 						<li><a href="index.html@style=yellow" rel="yellow" class="styleswitch color-yellow">yellow</a></li>
 						<li><a href="index.html@style=orange" rel="orange" class="styleswitch color-orange">orange</a></li>
@@ -120,13 +120,12 @@
 						<li><a href="index.html@style=green" rel="green" class="styleswitch color-green">blue</a></li>
 						<li><a href="index.html@style=red" rel="red" class="styleswitch color-red">blue</a></li>
 						<li><a href="index.html@style=purple" rel="purple" class="styleswitch color-purple">blue</a></li>
-					
 					</ul>
-					<div style="clear:both; height:10px; width:100%"></div>				
+					<div style="clear:both; height:10px; width:100%"></div>
 			</div>
 		</div>
 		<div class="open-close"></div>
-	</div> 	
+	</div>
 
 <div id="wrapper">
 	<header id="header">
@@ -134,8 +133,8 @@
 			<div class="one-third">
 				<div class="logo"><a href="index.html"></a></div>
 			</div><!--end one-third-->
-			
-			<div class="two-third column-last">		
+
+			<div class="two-third column-last">
 				<nav id="navigation">
 					<ul id="mainnav">
 						<li><a href="index.html"><span>主页</span></a>
@@ -154,13 +153,13 @@
 							</ul>
 						</li>
 						<li><a href="#"><span>解决方案</span></a>
-							<ul>								
+							<ul>
 								<li><a href="#typography.html">DIT解决方案</a></li>
 								<li><a href="#columns.html">DCP解决方案</a></li>
 								<li><a href="#buttons-and-boxes.html">IMF解决方案</a></li>
 								</li>
-							</ul>				
-						</li>						
+							</ul>
+						</li>
 						<li><a href="#portfolio-four-columns.html"><span>新闻动态</span></a>
 						</li>
 						<li><a href="#blog-masonry-2-columns.html"><span>联系我们</span></a>
@@ -172,9 +171,9 @@
 					</ul>
 				</nav><!--end navigation-->
 			</div><!--end two-third-->
-		<div class="clear"></div>			
+		<div class="clear"></div>
 		</div><!--end centered-wrapper-->
-	</header>	
+	</header>
     <div class="copyrights">Collect from <a href="#http://www.cssmoban.com/" >网页模板</a></div>
 
 	<div class="top-shadow"></div>
@@ -183,101 +182,101 @@
 			<ul>
 				<!-- THE FIRST SLIDE -->
 				<li data-transition="slidedown" data-slotamount="15" data-masterspeed="300">
-					<img src="images/slides/firstslide.jpg" alt="" />
-									
-					<div class="caption box-slide1 lfl ltl"  
-						 data-x="0" 
-						 data-y="150" 
-						 data-speed="300" 
-						 data-start="1000" 
+					<img src="images/slides/slide5.jpg" alt="" />
+
+					<div class="caption box-slide1 lfl ltl"
+						 data-x="0"
+						 data-y="150"
+						 data-speed="300"
+						 data-start="1000"
 						 data-easing="easeOutExpo"><h2>HEY THERE! WE ARE SYMPATHIQUE</h2><p>This fullwidth slider is a very flexible one, and works with text, images, videos, or all of them in the same slide. Cool!</p></div>
 				</li>
-				
+
 				<!-- THE SECOND SLIDE -->
 				<li data-transition="fade" data-slotamount="15" data-masterspeed="300">
 					<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-					<img src="images/slides/secondslide.jpg" alt="" />
-															
+					<img src="images/slides/slide3.jpg" alt="" />
+
 					<!-- THE CAPTIONS IN THIS SLDIE -->
-					<div class="caption box-slide2 lft ltt"  
-						 data-x="770" 
-						 data-y="110" 
-						 data-speed="300" 
-						 data-start="500" 
+					<div class="caption box-slide2 lft ltt"
+						 data-x="770"
+						 data-y="110"
+						 data-speed="300"
+						 data-start="500"
 						 data-easing="easeOutExpo"><h2>JJ ROYAL PROJECT</h2><p>Describing projects it`s so easy. Define a caption, style it as you want and drop in it some content, not any type of content but only awesome content! You can also add HTML code, like buttons:</p><a class="button red" href="##">Find Out More</a></div>
-				</li>				
-				
+				</li>
+
 				<!-- THE THIRD SLIDE -->
 				<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#portfolio-single.html">
-					<img src="images/slides/thirdslide.jpg" alt="" />
+					<img src="images/slides/slide2.jpg" alt="" />
 
 				<!-- THE FIFTH SLIDE -->
 				<li data-transition="slideright" data-slotamount="15" data-masterspeed="300">
-					<img src="images/slides/forthslide.jpg" alt="" />
-									
-					<div class="caption title_text lfl stl"  
-						 data-x="0" 
-						 data-y="250" 
-						 data-speed="300" 
-						 data-start="1000" 
+					<img src="images/slides/slide1.jpg" alt="" />
+
+					<div class="caption title_text lfl stl"
+						 data-x="0"
+						 data-y="250"
+						 data-speed="300"
+						 data-start="1000"
 						 data-easing="easeOutExpo">CREATE UNLIMITED CAPTIONS</div>
-									
-					<div class="caption description_text lfl stl"  
-						 data-x="0" 
-						 data-y="292" 
-						 data-speed="300" 
-						 data-start="1300" 
+
+					<div class="caption description_text lfl stl"
+						 data-x="0"
+						 data-y="292"
+						 data-speed="300"
+						 data-start="1300"
 						 data-easing="easeOutExpo">AND STYLE AND ANIMATE THEM INDIVIDUALLY</div>
-				</li>	
+				</li>
 				<!-- THE SIX SLIDE -->
 				<li data-transition="fade" data-slotamount="15" data-masterspeed="300">
-					<img src="images/slides/fifthslide.jpg" alt="" />
-									
-					<div class="caption lfl fadeout"  
-						 data-x="0" 
-						 data-y="40" 
-						 data-speed="300" 
-						 data-start="500" 
+					<img src="images/slides/slide6.jpg" alt="" />
+
+					<div class="caption lfl fadeout"
+						 data-x="0"
+						 data-y="40"
+						 data-speed="300"
+						 data-start="500"
 						 data-easing="easeOutExpo"><img src="images/slides/layer1.jpg" alt=""></div>
-									
-					<div class="caption lfl fadeout"  
-						 data-x="15" 
-						 data-y="260" 
-						 data-speed="300" 
-						 data-start="800" 
+
+					<div class="caption lfl fadeout"
+						 data-x="15"
+						 data-y="260"
+						 data-speed="300"
+						 data-start="800"
 						 data-easing="easeOutExpo"><img src="images/slides/layer2.jpg" alt=""></div>
-					<div class="caption lfr fadeout"  
-						 data-x="855" 
-						 data-y="60" 
-						 data-speed="300" 
-						 data-start="1100" 
+					<div class="caption lfr fadeout"
+						 data-x="855"
+						 data-y="60"
+						 data-speed="300"
+						 data-start="1100"
 						 data-easing="easeOutExpo"><img src="images/slides/layer4.jpg" alt=""></div>
-									
-					<div class="caption lfr fadeout"  
-						 data-x="880" 
-						 data-y="290" 
-						 data-speed="300" 
-						 data-start="1400" 
-						 data-easing="easeOutExpo"><img src="images/slides/layer5.jpg" alt=""></div>						 
-				</li>					
+
+					<div class="caption lfr fadeout"
+						 data-x="880"
+						 data-y="290"
+						 data-speed="300"
+						 data-start="1400"
+						 data-easing="easeOutExpo"><img src="images/slides/layer5.jpg" alt=""></div>
+				</li>
 			</ul>
-			<!--enable slider timer 
+			<!--enable slider timer
 				<div class="tp-bannertimer"></div>
 			-->
 		</div>
-		<div class="bottom-shadow"></div>	
+		<div class="bottom-shadow"></div>
 	</div><!--end slider-->
-	
-	
-	<div class="centered-wrapper">	
-	
+
+
+	<div class="centered-wrapper">
+
 		<section class="intro">
-			<h2>We`re an award winning digital studio specialised in web design.</h2>
-			<h5>Our projects stand out from the crowd so if you want to collaborate, <a href="#12">get in touch with us</a> to see how we can help you!</h5>
+      <h2>我们致力于向客户提供广电领域的全程解决方案和技术支持。</h2>
+      鸿视线科技（北京）有限公司于2010年成立于北京，是集高端影视设备销售、系统集成与影视后期制作于一体的多元化公司。
 		</section>
-	
+
 		<section>
-			<div class="bgtitle"><h2>Our Works</h2></div>
+      <div class="bgtitle"><h2>产品展示</h2></div>
 			<ul id="portfolio-carousel">
 				<li>
 					<a href="images/portfolio/image1.jpg" rel="prettyPhoto[pp_gal]" title="Cervejaria Republica">
@@ -289,7 +288,7 @@
 						<span>rebranding, printing identity</span>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="images/portfolio/image2.jpg" rel="prettyPhoto[pp_gal]" title="Website Redesign">
 						<span class="item-on-hover"><span class="hover-link"></span></span>
@@ -300,7 +299,7 @@
 						<span>web design, programming</span>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="../../../vimeo.com/7449107" rel="prettyPhoto">
 						<span class="item-on-hover"><span class="hover-video"></span></span>
@@ -311,7 +310,7 @@
 						<span>business cards, branding</span>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="images/portfolio/image6.jpg">
 						<span class="item-on-hover"><span class="hover-image"></span></span>
@@ -321,8 +320,8 @@
 						<h3><a href="#portfolio-single.html">Old City Streets</a></h3>
 						<span>urban, photography</span>
 					</div>
-				</li>				
-				
+				</li>
+
 				<li>
 					<a href="images/portfolio/image4.jpg" rel="prettyPhoto[pp_gal]" title="Warner Bros">
 						<span class="item-on-hover"><span class="hover-image"></span></span>
@@ -333,7 +332,7 @@
 						<span>web design, rebranding</span>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="portfolio-single.html">
 						<span class="item-on-hover"><span class="hover-link"></span></span>
@@ -343,14 +342,14 @@
 						<h3><a href="#portfolio-single.html">City Photo Session</a></h3>
 						<span>marketing, photography</span>
 					</div>
-				</li>				
-			</ul>	
-		</section>		
-		
+				</li>
+			</ul>
+		</section>
+
 		<div class="space"></div>
-		
+
 		<section>
-			<div class="bgtitle"><h2>From the Blog</h2></div>
+      <div class="bgtitle"><h2>解决方案</h2></div>
 			<ul id="homeblog-carousel">
 				<li>
 					<a href="#portfolio-single.html">
@@ -365,7 +364,7 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="#portfolio-single.html">
 						<span class="item-on-hover"></span>
@@ -378,7 +377,7 @@
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-				</li>			
+				</li>
 				<li>
 					<a href="#portfolio-single.html">
 						<span class="item-on-hover"></span>
@@ -392,7 +391,7 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
 					</div>
 				</li>
-				
+
 				<li>
 					<a href="#portfolio-single.html">
 						<span class="item-on-hover"></span>
@@ -406,11 +405,27 @@
 						<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
 					</div>
 				</li>
-			</ul>	
-		</section>				
-		
-	</div><!--end centered-wrapper-->
-	
+			</ul>
+		</section>
+    <div class="space"></div>
+
+    <section class="homepage-clients">
+      <h2>我们的客户</h2>
+      <ul class="clients">
+        <li><a href="#"><img src="images/clients/brilliant.png" alt="client"/></a></li>
+        <li><a href="#"><img src="images/clients/goodwaves.png" alt="client"/></a></li>
+        <li><a href="#"><img src="images/clients/videosms.png" alt="client"/></a></li>
+        <li><a href="#"><img src="images/clients/spectrum.png" alt="client"/></a></li>
+        <li><a href="#"><img src="images/clients/diagblog.png" alt="client"/></a></li>
+        <li><a href="#"><img src="images/clients/home-energy.png" alt="client"/></a></li>
+      </ul>
+    </section>
+
+    <div class="half-space"></div>
+
+  </div>
+  <!--end centered-wrapper-->
+
 	<div class="space"></div>
 
 	<footer id="footer">
@@ -426,21 +441,22 @@
 						<h3></h3>
 						<div class="tweet1"></div>
 					</div>
-					
+
 					<div class="percent-one-half column-last">
 						<h3>联系我们</h3>
 						<ul>
-							<li>Address: 北京市海淀区通汇路18号诸子阶55-3</li>
-							<li>Phone：8610-82350975<br/>
-							E-mail: <a href="mailto:">redline.china@gmail.com</a></li>
+							<li>地址: 北京市海淀区通汇路18号诸子阶55-3</li>
+							<li>电话：8610-82350975&nbsp;
+							手机：13321152092</li>
+							邮箱: <a href="mailto:">redline.china@gmail.com</a></li>
 						</ul>
-					</div><!--end one-half-->					
+					</div><!--end one-half-->
 				</div><!--end one-half-->
 			</div><!--end topfooter-->
 		</div><!--end centered-wrapper-->
-		
-		<div id="bottomfooter">		
-			<div class="centered-wrapper">		
+
+		<div id="bottomfooter">
+			<div class="centered-wrapper">
 				<div class="one-half">
 					<p>隐私保护 &copy; 2014 - 鸿视线科技（北京）有限公司 | 版权所有 | 京ICP备11023392号-1 </p>
 				</div><!--end one-half-->
@@ -452,21 +468,21 @@
 						<li><a class="twitter" href="#12">Twitter</a></li>
 						<li><a class="flickr" href="#12">Flickr</a></li>
 						<li><a class="google" href="#12">Google</a></li>
-						
+
 					<!-- You can add social icons for forrst, dribbble, vimeo, linkedin and skype. Take the ones you need from the list and paste them above
-					
+
 						<li><a class="forrst" href="#">Forrst</a></li>
 						<li><a class="dribbble" href="#">Dribbble</a></li>
 						<li><a class="vimeo" href="#">Vimeo</a></li>
 						<li><a class="linkedin" href="#">LinkedIn</a></li>
-						<li><a class="skype" href="#">Skype</a></li> 
-					-->	
-					</ul>					
+						<li><a class="skype" href="#">Skype</a></li>
+					-->
+					</ul>
 				</div><!--end one-half-->
-			</div><!--end centered-wrapper-->				
+			</div><!--end centered-wrapper-->
 		</div><!--end bottomfooter-->
-	</footer><!--end footer-->	
-	
+	</footer><!--end footer-->
+
 </div><!--end wrapper-->
-</body> 
+</body>
 </html>
