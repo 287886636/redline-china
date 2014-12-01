@@ -1121,13 +1121,13 @@ h3.service {
     width: 100% !important;
     position: relative;
     padding: 0;
-    max-height: 450px !important;
+    max-height: 850px !important;
     overflow: hidden
 }
 
 .fullwidthbanner-container .fullwidthabnner {
     width: 100% !important;
-    max-height: 450px !important;
+    max-height: 850px !important;
     position: relative
 }
 
